@@ -1,0 +1,238 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 36px;
+    color: #757575;
+    /*background-color: #E5E5E5;*/
+}
+
+a {
+    text-decoration: none;
+    color: #212121;
+}
+
+a:hover {
+    color: #2196F3;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.page-header {
+    /*width: 1600px;
+    height: 80px;
+    left: 0px;
+    top: 0px;*/
+    background: #FFFFFF;
+} 
+
+.nav-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+
+.main-slider {
+    width: 1600px;
+    height: 600px;
+    left: 0px;
+    top: 80px;
+    background-color: #2F303A;
+}
+
+.button {
+    /*font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;*/
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+}
+
+h1 {
+    /*font-family: Roboto;
+    font-style: normal;*/
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+/* or 136% */
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.main-list {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+.list {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+h2 {
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.main-list section {
+    background: #E5E5E5;
+}
+
+.image section {
+    background: #E5E5E5;
+}
+
+.team section {
+    background: #F5F4FA;
+}
+
+.name {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+/* identical to box height */
+    /*text-align: center;*/
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.post {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+/* identical to box height */
+    /*text-align: center;*/
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.page-footer {
+    /*position: absolute;*/
+    width: 1600px;
+    height: 252px;
+    left: 0px;
+    top: 2097px;
+    background: #2F303A;
+}
+
+.address {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+/* or 171% */
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.mail-telephone {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+/* or 171% */
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+
+
+.button-portfolio {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;   
+}
+
+.button-portfolio:hover {
+    color: #2196F3;
+}
+
+.images-portfolio {
+    /*font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;*/
+    font-size: 18px;
+    line-height: 36px;
+/* identical to box height, or 200% */
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+
+.list-portfolio {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+/* identical to box height, or 187% */
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.logo-word {
+    font-size: 26px;
+    line-height: 31px;
+/* identical to box height */
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+
+.black-logo-word {
+    font-size: 26px;
+    line-height: 31px;
+/* identical to box height */
+    letter-spacing: 0.03em;
+    color: black;
+}
+
+.white-logo-word {
+    font-size: 26px;
+    line-height: 31px;
+/* identical to box height */
+    letter-spacing: 0.03em;
+    color: white;
+}
