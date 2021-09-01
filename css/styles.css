@@ -18,6 +18,19 @@ a:hover {
     color: #2196F3;
 }
 
+.word-studio {
+    color: #2196F3;
+}
+
+.word-portfolio {
+    color: #2196F3;
+}
+
+.word-all{
+    background: #2196F3;
+    color: #FFFFFF;
+}
+
 ul {
     list-style: none;
     margin: 0;
@@ -52,18 +65,28 @@ img {
     background-color: #2F303A;
 }
 
-.button {
-    /*font-family: Roboto;
+.main-button {
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    left: 700px;
+    top: 430px;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    font-family: Roboto;
     font-style: normal;
-    font-weight: bold;*/
+    font-weight: bold;
     font-size: 16px;
     line-height: 30px;
-    display: flex;
+    /* identical to box height, or 187% */
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
     color: #FFFFFF;
 }
+
+
 
 h1 {
     /*font-family: Roboto;
@@ -188,7 +211,8 @@ h2 {
 }
 
 .button-portfolio:hover {
-    color: #2196F3;
+    background: #2196F3;
+    color: #FFFFFF;
 }
 
 .images-portfolio {
@@ -235,4 +259,9 @@ h2 {
 /* identical to box height */
     letter-spacing: 0.03em;
     color: white;
+}
+
+.head-line-height {
+    line-height: 15px;
+    height: 80px;
 }
