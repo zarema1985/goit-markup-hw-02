@@ -1,8 +1,7 @@
 body{
-    font-family: 'Raleway', sans-serif;
     font-family: 'Roboto', Arial, sans-serif;
     font-style: normal;
-    font-weight: bold;
+    font-weight: normal;
     font-size: 18px;
     line-height: 36px;
     color: #757575;
@@ -14,21 +13,25 @@ a {
     color: #212121;
 }
 
+.logo-word {
+    color: #2196F3;
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+.logo-word-black {
+    color: #000;
+}
+
+.logo-word-white {
+    color: #fff;
+}
+
+
 a:hover {
     color: #2196F3;
-}
-
-.word-studio {
-    color: #2196F3;
-}
-
-.word-portfolio {
-    color: #2196F3;
-}
-
-.word-all{
-    background: #2196F3;
-    color: #FFFFFF;
 }
 
 ul {
@@ -43,57 +46,39 @@ img {
 }
 
 .page-header {
-    /*width: 1600px;
-    height: 80px;
-    left: 0px;
-    top: 0px;*/
     background: #FFFFFF;
 } 
 
 .nav-link {
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
 }
 
 .main-slider {
-    width: 1600px;
-    height: 600px;
-    left: 0px;
-    top: 80px;
     background-color: #2F303A;
 }
 
 .main-button {
-    position: absolute;
-    width: 200px;
-    height: 50px;
-    left: 700px;
-    top: 430px;
     background: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-    font-family: Roboto;
-    font-style: normal;
     font-weight: bold;
     font-size: 16px;
-    line-height: 30px;
-    /* identical to box height, or 187% */
-    align-items: center;
-    text-align: center;
+    line-height: 1.87;
     letter-spacing: 0.06em;
     color: #FFFFFF;
 }
 
-
+.main-button:focus, .main-button:hover {
+    background: #188CE8;
+}
 
 h1 {
-    /*font-family: Roboto;
-    font-style: normal;*/
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
+    line-height: 1.36;
 /* or 136% */
     text-align: center;
     letter-spacing: 0.06em;
@@ -111,9 +96,6 @@ h1 {
 }
 
 .list {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
     font-size: 14px;
     line-height: 24px;
     /* or 171% */
@@ -129,21 +111,11 @@ h2 {
     color: #212121;
 }
 
-.main-list section {
-    background: #E5E5E5;
-}
-
-.image section {
-    background: #E5E5E5;
-}
-
-.team section {
+.team-section {
     background: #F5F4FA;
 }
 
 .name {
-    font-family: Roboto;
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
@@ -154,8 +126,6 @@ h2 {
 }
 
 .post {
-    font-family: Roboto;
-    font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 19px;
@@ -166,18 +136,10 @@ h2 {
 }
 
 .page-footer {
-    /*position: absolute;*/
-    width: 1600px;
-    height: 252px;
-    left: 0px;
-    top: 2097px;
     background: #2F303A;
 }
 
 .address {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
     font-size: 14px;
     line-height: 24px;
 /* or 171% */
@@ -186,9 +148,6 @@ h2 {
 }
 
 .mail-telephone {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
     font-size: 14px;
     line-height: 24px;
 /* or 171% */
@@ -199,8 +158,6 @@ h2 {
 
 
 .button-portfolio {
-    font-family: Roboto;
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
@@ -213,12 +170,10 @@ h2 {
 .button-portfolio:hover {
     background: #2196F3;
     color: #FFFFFF;
+    cursor: pointer;
 }
 
 .images-portfolio {
-    /*font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;*/
     font-size: 18px;
     line-height: 36px;
 /* identical to box height, or 200% */
@@ -227,9 +182,6 @@ h2 {
 }
 
 .list-portfolio {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
     font-size: 16px;
     line-height: 30px;
 /* identical to box height, or 187% */
@@ -237,31 +189,16 @@ h2 {
     color: #757575;
 }
 
-.logo-word {
-    font-size: 26px;
-    line-height: 31px;
-/* identical to box height */
-    letter-spacing: 0.03em;
-    color: #2196F3;
-}
 
-.black-logo-word {
-    font-size: 26px;
-    line-height: 31px;
-/* identical to box height */
-    letter-spacing: 0.03em;
-    color: black;
-}
-
-.white-logo-word {
-    font-size: 26px;
-    line-height: 31px;
-/* identical to box height */
-    letter-spacing: 0.03em;
-    color: white;
-}
 
 .head-line-height {
     line-height: 15px;
     height: 80px;
 }
+
+.head-line-height-contacts .nav-link {
+    line-height: 15px;
+    height: 80px;
+    color: #757575;
+}
+
