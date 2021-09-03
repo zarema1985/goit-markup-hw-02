@@ -1,39 +1,49 @@
+:root {
+    --title-text-color: #757575;
+    --primary-text-color: #212121;
+    --link-text-color: #2196F3;
+    --accent-text-color: #FFFFFF;
+    --background-color: #2F303A;
+    --backgr-color: #F5F4FA;
+}
+
 body{
     font-family: 'Roboto', Arial, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
-    line-height: 36px;
-    color: #757575;
+    line-height: 2;
+    color: var(--title-text-color);
 }
 
 a {
     text-decoration: none;
-    color: #212121;
+    color: var(--primary-text-color);
+
 }
 
 .logo-word {
-    color: #2196F3;
     font-family: 'Raleway', sans-serif;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
+    color: var(--link-text-color);
 }
 
 .logo-word-black {
-    color: #000;
+    color: var(--primary-text-color);
 }
 
 .logo-word-white {
-    color: #fff;
+    color: var(--accent-text-color);
 }
 
 .active {
-    color: #2196F3;
+    color: var(--link-text-color);
 }
 
 a:hover {
-    color: #2196F3;
+    color: var(--link-text-color);
 }
 
 ul {
@@ -48,7 +58,7 @@ img {
 }
 
 .page-header {
-    background: #FFFFFF;
+    background: var(--accent-text-color);
 } 
 
 .nav-link {
@@ -59,18 +69,18 @@ img {
 }
 
 .main-slider {
-    background-color: #2F303A;
+    background-color: var(--background-color);
 }
 
 .main-button {
-    background: #2196F3;
+    background: var(--link-text-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     font-weight: bold;
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.06em;
-    color: #FFFFFF;
+    color: var(--accent-text-color);
 }
 
 .main-button:focus, .main-button:hover {
@@ -84,7 +94,7 @@ h1 {
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: var(--accent-text-color);
 }
 
 .main-list {
@@ -93,14 +103,14 @@ h1 {
     line-height: 1,14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #212121;
+    color: var(--primary-text-color);
 }
 
 .list {
     font-size: 14px;
     line-height: 1,71;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--title-text-color);
 }
 
 h2 {
@@ -108,11 +118,11 @@ h2 {
     line-height: 1,17;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--primary-text-color);
 }
 
 .team-section {
-    background: #F5F4FA;
+    background: var(--backgr-color);
 }
 
 .name {
@@ -120,7 +130,7 @@ h2 {
     font-size: 16px;
     line-height: 1,19;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--primary-text-color);
 }
 
 .post {
@@ -128,18 +138,19 @@ h2 {
     font-size: 16px;
     line-height: 1,19;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--title-text-color);
 }
 
 .page-footer {
-    background: #2F303A;
+    background: var(--background-color);
 }
 
 .address {
+    font-style: normal;
     font-size: 14px;
     line-height: 1,71;
     letter-spacing: 0.03em;
-    color: #FFFFFF;
+    color: var(--accent-text-color);
 }
 
 .mail, .telephone {
@@ -155,33 +166,33 @@ h2 {
     line-height: 1,63;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121; 
-    background: #F5F4FA;  
+    color: var (--primary-text-color);
+    background: var(--backgr-color);
 }
 
 .button-portfolio:hover {
-    background: #2196F3;
-    color: #FFFFFF;
+    background: var(--link-text-color);
+    color: var(--accent-text-color);
     cursor: pointer;
 }
 
 .active-btn {
-    color: #ffffff;
-    background: #2196F3;
+    color: var(--accent-text-color);
+    background: var(--link-text-color);
 }
 
 .images-portfolio {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    color: #212121;
+    color: var(--primary-text-color);
 }
 
 .list-portfolio {
     font-size: 16px;
     line-height: 1,88;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--title-text-color);
 }
 
 .head-line-height {
@@ -190,8 +201,6 @@ h2 {
 }
 
 .head-line-height-contacts .nav-link {
-    line-height: 15px;
-    height: 80px;
-    color: #757575;
+    color: var(--title-text-color);
 }
 
