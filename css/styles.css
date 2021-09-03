@@ -5,7 +5,6 @@ body{
     font-size: 18px;
     line-height: 36px;
     color: #757575;
-    /*background-color: #E5E5E5;*/
 }
 
 a {
@@ -29,6 +28,9 @@ a {
     color: #fff;
 }
 
+.active {
+    color: #2196F3;
+}
 
 a:hover {
     color: #2196F3;
@@ -79,7 +81,6 @@ h1 {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-/* or 136% */
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -89,7 +90,7 @@ h1 {
 .main-list {
     font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1,14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #212121;
@@ -97,15 +98,14 @@ h1 {
 
 .list {
     font-size: 14px;
-    line-height: 24px;
-    /* or 171% */
+    line-height: 1,71;
     letter-spacing: 0.03em;
     color: #757575;
 }
 
 h2 {
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1,17;
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
@@ -118,9 +118,7 @@ h2 {
 .name {
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
-/* identical to box height */
-    /*text-align: center;*/
+    line-height: 1,19;
     letter-spacing: 0.03em;
     color: #212121;
 }
@@ -128,9 +126,7 @@ h2 {
 .post {
     font-weight: normal;
     font-size: 16px;
-    line-height: 19px;
-/* identical to box height */
-    /*text-align: center;*/
+    line-height: 1,19;
     letter-spacing: 0.03em;
     color: #757575;
 }
@@ -141,30 +137,26 @@ h2 {
 
 .address {
     font-size: 14px;
-    line-height: 24px;
-/* or 171% */
+    line-height: 1,71;
     letter-spacing: 0.03em;
     color: #FFFFFF;
 }
 
-.mail-telephone {
+.mail, .telephone {
     font-size: 14px;
-    line-height: 24px;
-/* or 171% */
+    line-height: 1,71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
 
-
-
 .button-portfolio {
     font-weight: 500;
     font-size: 16px;
-    line-height: 26px;
-    /* identical to box height, or 162% */
+    line-height: 1,63;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;   
+    color: #212121; 
+    background: #F5F4FA;  
 }
 
 .button-portfolio:hover {
@@ -173,23 +165,24 @@ h2 {
     cursor: pointer;
 }
 
+.active-btn {
+    color: #ffffff;
+    background: #2196F3;
+}
+
 .images-portfolio {
     font-size: 18px;
-    line-height: 36px;
-/* identical to box height, or 200% */
+    line-height: 2;
     letter-spacing: 0.06em;
     color: #212121;
 }
 
 .list-portfolio {
     font-size: 16px;
-    line-height: 30px;
-/* identical to box height, or 187% */
+    line-height: 1,88;
     letter-spacing: 0.03em;
     color: #757575;
 }
-
-
 
 .head-line-height {
     line-height: 15px;
