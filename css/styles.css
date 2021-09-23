@@ -46,6 +46,10 @@ a:hover {
     color: var(--link-text-color);
 }
 
+.head-line-height-contacts .nav-link:hover, .head-line-height-contacts .nav-link:focus {
+    color: var(--link-text-color);
+}
+
 ul {
     list-style: none;
     margin: 0;
@@ -59,6 +63,7 @@ img {
 
 .page-header {
     background: var(--accent-text-color);
+    /* display: inline; */
 } 
 
 .nav-link {
@@ -70,6 +75,9 @@ img {
 
 .main-slider {
     background-color: var(--background-color);
+    height: 600px;
+    padding: 200px;
+    margin-bottom: 94px;
 }
 
 .main-button {
@@ -81,6 +89,12 @@ img {
     line-height: 1.87;
     letter-spacing: 0.06em;
     color: var(--accent-text-color);
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    Width: 200px;
+    height: 50px;
+    padding: 10px;
 }
 
 .main-button:focus, .main-button:hover {
@@ -95,6 +109,8 @@ h1 {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--accent-text-color);
+    /* width: 696px;
+    height: 120px; */
 }
 
 .main-list {
@@ -104,6 +120,7 @@ h1 {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--primary-text-color);
+    height: 16px;
 }
 
 .list {
@@ -111,6 +128,7 @@ h1 {
     line-height: 1,71;
     letter-spacing: 0.03em;
     color: var(--title-text-color);
+    height: 75px;
 }
 
 h2 {
@@ -122,7 +140,10 @@ h2 {
 }
 
 .team-section {
+    text-align: center;
     background: var(--backgr-color);
+    height: 648px;
+    /* padding: 94px; */
 }
 
 .name {
@@ -141,16 +162,13 @@ h2 {
     color: var(--title-text-color);
 }
 
-.page-footer {
-    background: var(--background-color);
-}
-
 .address {
     font-style: normal;
     font-size: 14px;
     line-height: 1,71;
     letter-spacing: 0.03em;
     color: var(--accent-text-color);
+    margin-top: 20px;
 }
 
 .mail, .telephone {
@@ -168,6 +186,7 @@ h2 {
     letter-spacing: 0.03em;
     color: var (--primary-text-color);
     background: var(--backgr-color);
+    padding: 6px 22px;
 }
 
 .button-portfolio:hover {
@@ -193,6 +212,7 @@ h2 {
     line-height: 1,88;
     letter-spacing: 0.03em;
     color: var(--title-text-color);
+    padding-left: 24px;
 }
 
 .head-line-height {
@@ -202,5 +222,92 @@ h2 {
 
 .head-line-height-contacts .nav-link {
     color: var(--title-text-color);
+}
+
+.container {
+        max-width: 1230px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.page-footer {
+    background: var(--background-color);
+    height: 252px;
+    padding: 60px;
+}
+
+.flex-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+}
+
+.flex-list {
+    display: flex;
+    align-items: flex-start;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+
+.flex-inlist {
+    flex-basis: 270px;
+}
+
+.flex-image {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flex-imagaphoto {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flex-button {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-bottom: 50px;
+    padding-left: 295px;
+    padding-right: 294px;
+}
+
+.wrap-image {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    
+}
+
+.flex-width {
+    width: 294px;
+    margin-left: 93px;
+}
+
+.flex-width-contacts {
+    width: 307px;
+}
+
+.mail-telephone {
+    margin-top: 9px;
+}
+
+.color-card {
+    background-color: #FFFFFF;
+   }
+
+section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.text-portfolio {
+    text-align: left;
+    padding-left: 24px;
 }
 
