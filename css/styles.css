@@ -46,6 +46,10 @@ a:hover {
     color: var(--link-text-color);
 }
 
+.head-line-height-contacts .nav-link:hover, .head-line-height-contacts .nav-link:focus {
+    color: var(--link-text-color);
+}
+
 ul {
     list-style: none;
     margin: 0;
